@@ -18,17 +18,17 @@ public class SignUpPage {
 			SignUpLink.click();
 			Thread.sleep(2000);
 			WebElement FirstName = driver.findElement(By.xpath("//input[@id= 'firstName']"));
-			FirstName.sendKeys("John");
+			FirstName.sendKeys("Brian");
 			WebElement LastName = driver.findElement(By.xpath("//input[@id= 'lastName']"));
-			LastName.sendKeys("Miller");
+			LastName.sendKeys("Lara");
 			WebElement Email = driver.findElement(By.xpath("//input[@id= 'email']"));
-			Email.sendKeys("johnm@gmail.com");
+			Email.sendKeys("brianl@gmail.com");
 			WebElement ContactNo = driver.findElement(By.xpath("//input[@id= 'contactNumber']"));
-			ContactNo.sendKeys("8452698745");
+			ContactNo.sendKeys("8995768549");
 			WebElement Password = driver.findElement(By.xpath("//input[@id= 'password']"));
-			Password.sendKeys("johnmiller@5678");
+			Password.sendKeys("brianl@5678");
 			WebElement ConfirmPassword = driver.findElement(By.xpath("//input[@id= 'confirmPassword']"));
-			ConfirmPassword.sendKeys("johnmiller@5678");
+			ConfirmPassword.sendKeys("brianl@5678");
 			WebElement SelectRole = driver.findElement(By.xpath("//input[@id= 'role1']"));
 			SelectRole.click();
 			WebElement NextBillingBtn = driver.findElement(By.xpath("//button[@name='_eventId_billing']"));
@@ -36,17 +36,17 @@ public class SignUpPage {
 			
 			Thread.sleep(2000);
 			WebElement AddressLine1 = driver.findElement(By.xpath("//input[@id= 'addressLineOne']"));
-			AddressLine1.sendKeys("wadia Street");
+			AddressLine1.sendKeys("181 Mercer Street");
 			WebElement AddressLine2 = driver.findElement(By.xpath("//input[@id= 'addressLineTwo']"));
-			AddressLine2.sendKeys("Anand nagar, pune");
+			AddressLine2.sendKeys("NY 10012");
 			WebElement City = driver.findElement(By.xpath("//input[@id= 'city']"));
-			City.sendKeys("pune");
+			City.sendKeys("New York");
 			WebElement PostalCode = driver.findElement(By.xpath("//input[@id= 'postalCode']"));
 			PostalCode.sendKeys("412308");
 			WebElement State = driver.findElement(By.xpath("//input[@id= 'state']"));
-			State.sendKeys("Maharashtra");
+			State.sendKeys("New York State");
 			WebElement Country = driver.findElement(By.xpath("//input[@id= 'country']"));
-			Country.sendKeys("India");
+			Country.sendKeys("United States");
 			WebElement NextConfirmBtn = driver.findElement(By.xpath("//button[contains(text(), 'Next - Confirm')]"));
 			NextConfirmBtn.click();
 			
@@ -60,9 +60,9 @@ public class SignUpPage {
 			
 			Thread.sleep(2000);
 			WebElement LoginEmail = driver.findElement(By.xpath("//input[@id= 'username']"));
-			LoginEmail.sendKeys("johnm@gmail.com");
+			LoginEmail.sendKeys("brianl@gmail.com");
 			WebElement LoginPassword = driver.findElement(By.xpath("//input[@id= 'password']"));
-			LoginPassword.sendKeys("johnmiller@5678");
+			LoginPassword.sendKeys("brianl@5678");
 			
 			WebElement LoginBtn = driver.findElement(By.xpath("//input[@value= 'Login']"));
 			LoginBtn.click();

@@ -1,137 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-17T07:07:34Z" name="Suite" finished-at="2025-08-17T07:10:01Z" duration-ms="146472">
+  <suite started-at="2025-09-14T14:18:22Z" name="Suite" finished-at="2025-09-14T14:21:02Z" duration-ms="159879">
     <groups>
     </groups>
-    <test started-at="2025-08-17T07:07:34Z" name="Test" finished-at="2025-08-17T07:10:01Z" duration-ms="146472">
+    <test started-at="2025-09-14T14:18:22Z" name="Test" finished-at="2025-09-14T14:21:02Z" duration-ms="159879">
       <class name="Medicare_Test.LoginTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-08-17T07:07:34Z" name="Setup" finished-at="2025-08-17T07:07:41Z" duration-ms="6319" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-09-14T14:18:22Z" name="Setup" finished-at="2025-09-14T14:18:30Z" duration-ms="8030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginSuccessTestWithCorrectCred()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-08-17T07:07:41Z" name="LoginSuccessTestWithCorrectCred" finished-at="2025-08-17T07:07:43Z" duration-ms="2482" status="PASS">
+        <test-method signature="LoginSuccessTestWithCorrectCred()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-09-14T14:18:30Z" name="LoginSuccessTestWithCorrectCred" finished-at="2025-09-14T14:18:33Z" duration-ms="2468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginSuccessTestWithCorrectCred -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-08-17T07:07:43Z" name="Teardown" finished-at="2025-08-17T07:07:53Z" duration-ms="10294" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-09-14T14:18:33Z" name="Teardown" finished-at="2025-09-14T14:18:43Z" duration-ms="10661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-08-17T07:09:44Z" name="Setup" finished-at="2025-08-17T07:09:48Z" duration-ms="4753" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-09-14T14:20:44Z" name="Setup" finished-at="2025-09-14T14:20:49Z" duration-ms="4706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="LoginFailiureTestWithIncorrectCred()[pri:1, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-08-17T07:09:48Z" name="LoginFailiureTestWithIncorrectCred" finished-at="2025-08-17T07:09:50Z" duration-ms="1953" status="PASS">
+        <test-method signature="LoginFailiureTestWithIncorrectCred()[pri:1, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-09-14T14:20:49Z" name="LoginFailiureTestWithIncorrectCred" finished-at="2025-09-14T14:20:51Z" duration-ms="2300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFailiureTestWithIncorrectCred -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-08-17T07:09:50Z" name="Teardown" finished-at="2025-08-17T07:10:01Z" duration-ms="10332" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.LoginTest@1224144a]" started-at="2025-09-14T14:20:51Z" name="Teardown" finished-at="2025-09-14T14:21:02Z" duration-ms="10401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- Medicare_Test.LoginTest -->
       <class name="Medicare_Test.SignUpTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.SignUpTest@29f7cefd]" started-at="2025-08-17T07:07:53Z" name="Setup" finished-at="2025-08-17T07:07:58Z" duration-ms="4309" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.SignUpTest@29f7cefd]" started-at="2025-09-14T14:18:43Z" name="Setup" finished-at="2025-09-14T14:18:49Z" duration-ms="5695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="SignUpSuccessValidation()[pri:0, instance:Medicare_Test.SignUpTest@29f7cefd]" started-at="2025-08-17T07:07:58Z" name="SignUpSuccessValidation" finished-at="2025-08-17T07:08:10Z" duration-ms="11910" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id= 'addressLineOne']"}
-  (Session info: chrome=139.0.7258.66)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a4718a16acd422e721567e363a587ed, findElement {value=//input[@id= 'addressLineOne'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\pravin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55850/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6a4718a16acd422e721567e363a587ed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id= 'addressLineOne']"}
-  (Session info: chrome=139.0.7258.66)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a4718a16acd422e721567e363a587ed, findElement {value=//input[@id= 'addressLineOne'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\pravin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55850/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6a4718a16acd422e721567e363a587ed
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at Medicare_Pages.SignUpPage.SignUpSuccess(SignUpPage.java:38)
-at Medicare_Test.SignUpTest.SignUpSuccessValidation(SignUpTest.java:14)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="SignUpSuccessValidation()[pri:0, instance:Medicare_Test.SignUpTest@29f7cefd]" started-at="2025-09-14T14:18:49Z" name="SignUpSuccessValidation" finished-at="2025-09-14T14:19:06Z" duration-ms="17238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpSuccessValidation -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.SignUpTest@29f7cefd]" started-at="2025-08-17T07:08:10Z" name="Teardown" finished-at="2025-08-17T07:08:20Z" duration-ms="10356" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.SignUpTest@29f7cefd]" started-at="2025-09-14T14:19:06Z" name="Teardown" finished-at="2025-09-14T14:19:17Z" duration-ms="10476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- Medicare_Test.SignUpTest -->
       <class name="Medicare_Test.ProductTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-08-17T07:08:20Z" name="Setup" finished-at="2025-08-17T07:08:25Z" duration-ms="4825" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-09-14T14:19:17Z" name="Setup" finished-at="2025-09-14T14:19:22Z" duration-ms="5733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="MultipleProdAddtoCartTest()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-08-17T07:08:25Z" name="MultipleProdAddtoCartTest" finished-at="2025-08-17T07:08:59Z" duration-ms="33830" status="PASS">
+        <test-method signature="MultipleProdAddtoCartTest()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-09-14T14:19:22Z" name="MultipleProdAddtoCartTest" finished-at="2025-09-14T14:20:00Z" duration-ms="37313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MultipleProdAddtoCartTest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-08-17T07:08:59Z" name="Teardown" finished-at="2025-08-17T07:09:09Z" duration-ms="10380" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-09-14T14:20:00Z" name="Teardown" finished-at="2025-09-14T14:20:10Z" duration-ms="10411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-08-17T07:09:09Z" name="Setup" finished-at="2025-08-17T07:09:15Z" duration-ms="5352" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-09-14T14:20:10Z" name="Setup" finished-at="2025-09-14T14:20:15Z" duration-ms="4552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="SingleProdAddtoCartTest()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-08-17T07:09:15Z" name="SingleProdAddtoCartTest" finished-at="2025-08-17T07:09:33Z" duration-ms="18633" status="PASS">
+        <test-method signature="SingleProdAddtoCartTest()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-09-14T14:20:15Z" name="SingleProdAddtoCartTest" finished-at="2025-09-14T14:20:34Z" duration-ms="19336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SingleProdAddtoCartTest -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-08-17T07:09:33Z" name="Teardown" finished-at="2025-08-17T07:09:44Z" duration-ms="10469" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Medicare_Test.ProductTest@700fb871]" started-at="2025-09-14T14:20:34Z" name="Teardown" finished-at="2025-09-14T14:20:44Z" duration-ms="10480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

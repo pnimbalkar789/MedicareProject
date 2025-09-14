@@ -3,6 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Medicare_Test.ProductTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="MultipleProdAddtoCartTest"/>
+          <include name="SingleProdAddtoCartTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Medicare_Test.ProductTest -->
       <class name="Medicare_Test.SignUpTest">
         <methods>
           <include name="Teardown"/>
@@ -10,6 +18,14 @@
           <include name="Setup"/>
         </methods>
       </class> <!-- Medicare_Test.SignUpTest -->
+      <class name="Medicare_Test.LoginTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="LoginSuccessTestWithCorrectCred"/>
+          <include name="LoginFailiureTestWithIncorrectCred"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Medicare_Test.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

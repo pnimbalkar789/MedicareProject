@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Medicare_Test.SignUpTest" class="method navigator-link" hash-for-method="SignUpSuccessValidation">SignUpSuccessValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -131,6 +117,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Medicare_Test.SignUpTest" class="method navigator-link" hash-for-method="SignUpSuccessValidation">SignUpSuccessValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Medicare_Test.ProductTest" class="method navigator-link" hash-for-method="SingleProdAddtoCartTest">SingleProdAddtoCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -146,45 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Medicare_Test.SignUpTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUpSuccessValidation">
-                  </a> <!-- SignUpSuccessValidation -->
-                  <span class="method-name">SignUpSuccessValidation</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id= &apos;addressLineOne&apos;]&quot;}
-  (Session info: chrome=139.0.7258.66)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a4718a16acd422e721567e363a587ed, findElement {value=//input[@id= &apos;addressLineOne&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\pravin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55850/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6a4718a16acd422e721567e363a587ed
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at Medicare_Pages.SignUpPage.SignUpSuccess(SignUpPage.java:38)
-	at Medicare_Test.SignUpTest.SignUpSuccessValidation(SignUpTest.java:14)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -203,6 +155,21 @@ Session ID: 6a4718a16acd422e721567e363a587ed
                   <a name="SingleProdAddtoCartTest">
                   </a> <!-- SingleProdAddtoCartTest -->
                   <span class="method-name">SingleProdAddtoCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Medicare_Test.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpSuccessValidation">
+                  </a> <!-- SignUpSuccessValidation -->
+                  <span class="method-name">SignUpSuccessValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -287,23 +254,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'MultipleProdAddtoCartTest')
 data.setCell(0, 2, 'Medicare_Test.ProductTest')
-data.setCell(0, 3, 33830);
+data.setCell(0, 3, 37313);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SingleProdAddtoCartTest')
 data.setCell(1, 2, 'Medicare_Test.ProductTest')
-data.setCell(1, 3, 18633);
+data.setCell(1, 3, 19336);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'SignUpSuccessValidation')
 data.setCell(2, 2, 'Medicare_Test.SignUpTest')
-data.setCell(2, 3, 11910);
+data.setCell(2, 3, 17238);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'LoginSuccessTestWithCorrectCred')
 data.setCell(3, 2, 'Medicare_Test.LoginTest')
-data.setCell(3, 3, 2482);
+data.setCell(3, 3, 2468);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'LoginFailiureTestWithIncorrectCred')
 data.setCell(4, 2, 'Medicare_Test.LoginTest')
-data.setCell(4, 3, 1953);
+data.setCell(4, 3, 2300);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -341,70 +308,68 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginSuccessTestWithCorrectCred</span>
-                <span class="method-start">6319 ms</span>
+                <span class="method-start">8030 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">8804 ms</span>
+                <span class="method-start">10501 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Medicare_Test.SignUpTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">19100 ms</span>
+                <span class="method-start">21164 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SignUpSuccessValidation</span>
-                <span class="method-start">23409 ms</span>
+                <span class="method-start">26859 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">35542 ms</span>
+                <span class="method-start">44101 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Medicare_Test.ProductTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">45899 ms</span>
+                <span class="method-start">54578 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">MultipleProdAddtoCartTest</span>
-                <span class="method-start">50724 ms</span>
+                <span class="method-start">60311 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">84557 ms</span>
+                <span class="method-start">97627 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">94937 ms</span>
+                <span class="method-start">108038 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SingleProdAddtoCartTest</span>
-                <span class="method-start">100289 ms</span>
+                <span class="method-start">112590 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">118924 ms</span>
+                <span class="method-start">131932 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Medicare_Test.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">129394 ms</span>
+                <span class="method-start">142413 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginFailiureTestWithIncorrectCred</span>
-                <span class="method-start">134147 ms</span>
+                <span class="method-start">147119 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">136102 ms</span>
+                <span class="method-start">149421 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
